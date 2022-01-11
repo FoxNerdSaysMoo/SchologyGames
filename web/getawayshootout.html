@@ -1,0 +1,47 @@
+    <!--
+    Copyright (C) 2022  Zebulon Taylor <zceboys@gmail.com>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Affero General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Affero General Public License for more details.
+
+    You should have received a copy of the GNU Affero General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+    -->
+<!DOCTYPE html>
+<html class="launch">
+    <head>
+        <link rel="stylesheet" href="static/user_scripts/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Lato&family=Oswald&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+
+        <link rel="icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAAAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAD///8B////Af///wH///8ByaxdQdy/cp/qzYHV8dWJ6/HVievqzoLX3cBzpcutXkf///8B////Af///wH///8B////Af///wHBo1MJ2r1wnfTXjf//5Zj//eCU/+zRiv/r0In/+96T///mmf/22Y7/3L9zp8GkUw////8B////Af///wHBo1MJ38J2tf3glf/425H/pZJg/0lAKf8fGw//HBkN/0A5JP+Xhlj/8daN///ilv/hxXnBwqRUD////wH///8B2bxvmfzglP/mzIb/SkIr/wAAAP8XFxT/RUVD/0VFQ/8mJiP/AAAA/zgyIP/Yv37//uKW/9y/cqf///8ByatbN/PXjP/53pL/TkUt/wAAAP+Tk5H//////////////////////8HBwP8AAAD/NjAf//HWjf/22o7/y61eQ9q9b5n/5Jf/sp5n/wAAAP9FRUP//////7Kysf8XFxT/BwcE/2RkYv//////dHRy/wAAAP+Xhlf//+aZ/93Ac6fnyn/V/+SX/15UNv8AAAD/ZGRi/+Dg4P9FRUP/BwcE/wcHBP82NjP//////6Kiof8AAAD/Qzwn//rfk//qzoLb7tGG7fnckf86NCL/AAAA/wcHBP8HBwT/VVVS/5OTkf/BwcD///////////9VVVL/BwcE/yUhFf/r0In/8tWJ7e7Rhuv63ZH/PTYj/wAAAP8HBwT/0dHQ////////////0dHQ/5OTkf9FRUP/BwcE/wcHBP8nIxf/7dKK//HUievmyn7T/+WX/2pePf8HBwT/RUVD//////+ysrH/JiYj/wcHBP82NjP/srKx/0VFQ/8HBwT/TkUt//3hlP/pzYHZ2Ltuk/7ilv/ErXH/BwcE/zY2M///////srKx/wcHBP8mJiP/wcHA//////82NjP/BwcE/6uYY///5Zj/279yo8iqWjHx1Yr9/uKV/2tgPv8AAAD/k5OR//////////////////////90dHL/BwcE/yUhFf/63pL/89eN/8qsXT3///8B17psj/ndkv/12Y7/b2JA/wIBAP8mJiP/RUVD/0VFQ/8AAAD/AAAA/1tRNf/s0Yn/+9+U/9q9cJ3///8B////AcCiUgXcv3Kp+d2S///ilf/JsnX/dWdD/0U+J/9DPCX/bWA//7+pb//94JP/+9+U/97BdbXBo1ML////Af///wH///8BwKJSBde6bY/w1Ir7/+KW///ll//94JT//eCT///ll///45b/8tWL/dm8b5nBo1MJ////Af///wH///8B////Af///wH///8Bx6paM9i7bpHmyX7P7dGG6e3Rhuvmyn/R2rxvl8irWzn///8B////Af///wH///8BAAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//w==">
+        <title>Home | Schoology</title>
+        <meta charset="UTF-8">
+    </head>
+    <body class="launch">
+        <script src="static/user_scripts/changeTitle.js"></script>
+        <div class="swipe-in-text">
+            <a href="/" class="title-link"><h1 class="h1index text">Schoology Games</h1></a>
+        </div>
+        <form id="titlechanger">
+            Change page title: <input onkeydown="return event.key != 'Enter' ? event.key : changeTitle();" type="text" name="title" value="Home | Schoology">
+            <input type="button" onclick="changeTitle()" value="Change">
+        </form>
+        <div id="game-wrapper">
+            <iframe class="iframe" id="game" src="static/getawayshootout/gas_base.html"></iframe>
+        </div>
+        <script src="static/user_scripts/scale.js"></script>
+    </body>
+</html>
+
+

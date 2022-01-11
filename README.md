@@ -1,17 +1,22 @@
-# Welcome to the GBA emulator
+# Welcome to Schoology Games
+## Formerly Newsela Games
 
-GBA Emulator is a free, online GBA emulator with 150+ Games to play!
+Newsela Games is an open-source unblocked games website.
 
-# Github GBA Game Website
+Currently running at [schology.duckdns.org](https://schology.duckdns.org)
 
-https://browncha023.github.io/GBA/
+### This repo is under the GNU AGPL License as defined by the Free Software Foundation. View LICENSE for more info.
 
-# EIC Version
+# How tf did you do this?????
 
-https://gba.endinternetcensorship.repl.co/
+- https://github.com/ethanaobrien/emulatorjs
+- Downloading unityweb files from unblocked games sites (ctrl+u, look for an iframe to a webgl player wrapper, then use the build.json for the file urls)
+- To be implemented: https://github.com/binary-person/womginx (proxy for discord)
 
-<br>
 
-*Find A Game Breaking Bug?*
+# Find A Game Breaking Bug?
 
-Report it here: https://github.com/Browncha023/GBA/issues
+Report it here: https://github.com/foxnerdsaysmoo/schoologygames/issues
+
+## I am not affiliated with Schoology.
+
