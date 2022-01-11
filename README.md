@@ -16,7 +16,7 @@ Currently running at [schology.duckdns.org](https://schology.duckdns.org)
 
 # Find A Game Breaking Bug?
 
-Report it here: https://github.com/foxnerdsaysmoo/schoologygames/issues
+Report it here: https://github.com/foxnerdsaysmoo/schologygames/issues
 
 ## I am not affiliated with Schoology.
 
