@@ -30,12 +30,17 @@
     </head>
     <body class="launch">
         <script src="static/user_scripts/changeTitle.js"></script>
+        <script src="static/user_scripts/changeWidth.js"></script>
         <div class="swipe-in-text">
             <a href="/" class="title-link"><h1 class="h1index text">Schoology Games</h1></a>
         </div>
         <form id="titlechanger">
             Change page title: <input onkeydown="return event.key != 'Enter' ? event.key : changeTitle();" type="text" name="title" value="Home | Schoology">
             <input type="button" onclick="changeTitle()" value="Change">
+        </form>
+        <form id="widthchanger">
+            Change game width: <input onkeydown="return event.key != 'Enter' ? event.key : changeWidth();" type="text" name="title" value="100%">
+            <input type="button" onclick="changeWidth()" value="Change">
         </form>
         <div id="game-wrapper">
             <iframe class="iframe" id="game" src="https://rawcdn.githack.com/foxnerdsaysmoo/schologygames/master/web/static/getawayshootout/gas_base.html"></iframe>
