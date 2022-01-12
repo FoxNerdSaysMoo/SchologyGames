@@ -24,27 +24,28 @@ app = Sanic("Schoology")
 #Compress(app)
 
 app.static("/", "./web")
-compressed = "<style>" + open("web/static/user_scripts/main.css", "r").read() + "</style>"
+compressed = lambda : "<style>" + open("web/static/user_scripts/main.css", "r").read() + "</style>"
 compressed_fonts = "<style>" + open("web/static/user_scripts/fontscompressed.css", "r").read() + "</style>"
 pages = [
     "slope",
     "ducklife",
     "ducklifespace",
     "getawayshootout",
-    "launcher"
+    "launcher",
+    "ducklifetreasure"
 ]
 
 
 @app.route("/")
 async def index(req):
     return response.html(
-        open("web/index.html", "r").read().replace('<link rel="stylesheet" href="static/user_scripts/main.css">', compressed)\
+        open("web/index.html", "r").read().replace('<link rel="stylesheet" href="static/user_scripts/main.css">', compressed())\
         .replace('<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Lato&family=Oswald&display=swap" rel="stylesheet" onload="this.media=\'all\'">', compressed_fonts)
         )
 
 @app.route("/<path:" + "|".join(pages) + ">")
 async def routes(req, path: str):
-    return response.html(open(f"web/{path}.html", "r").read().replace('<link rel="stylesheet" href="static/user_scripts/main.css">', compressed)\
+    return response.html(open(f"web/{path}.html", "r").read().replace('<link rel="stylesheet" href="static/user_scripts/main.css">', compressed())\
         .replace('<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Lato&family=Oswald&display=swap" rel="stylesheet">', compressed_fonts))
 
 @app.route("/secretlinktotally")
