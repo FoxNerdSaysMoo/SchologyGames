@@ -18,10 +18,10 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 from sanic import Sanic, response
 from email.utils import format_datetime
 from datetime import datetime, timedelta
-#from sanic_compress import Compress
+from sanic_compress import Compress
 
 app = Sanic("Schoology")
-#Compress(app)
+Compress(app)
 
 app.static("/", "./web")
 compressed = lambda : "<style>" + open("web/static/user_scripts/main.css", "r").read() + "</style>"
