@@ -1,0 +1,82 @@
+{
+    "slope": {
+        "name": "Slope",
+        "author": "Y8 Games",
+        "img": "slope.jpg"
+    },
+    "launcher#gba-firered.zip-gba_bios.bin": {
+        "name": "Pokemon Fire Red",
+        "author": "Nintendo",
+        "img": "firered.jpg"
+    },
+    "launcher#snes-mario_all_stars.zip-": {
+        "name": "Super Mario All Stars",
+        "author": "Nintendo",
+        "img": "marioallstars.jpg"
+    },
+    "launcher#snes-super_mario_kart.zip-": {
+        "name": "Super Mario Kart",
+        "author": "Nintendo",
+        "img": "supermariokart.jpeg"
+    },
+    "getawayshootout": {
+        "name": "Getaway Shootout",
+        "author": "New Eich Games",
+        "img": "getawayshootout.avif"
+    },
+    "launcher#gba-tetris_worlds.zip-gba_bios.bin": {
+        "name": "Tetris Worlds",
+        "author": "Nintendo",
+        "img": "tetrisworlds.png"
+    },
+    "launcher#snes-supermarioworld.zip-": {
+        "name": "Super Mario World",
+        "author": "Nintendo",
+        "img": "supermarioworld.jpg"
+    },
+    "ducklife": {
+        "name": "Duck Life",
+        "author": "Wix Games",
+        "img": "ducklife.webp"
+    },
+    "ducklifespace": {
+        "name": "Duck Life Space",
+        "author": "Wix Games",
+        "img": "ducklifespace.avif"
+    },
+    "ducklifetreasure": {
+        "name": "Duck Life Treasure Hunt",
+        "author": "Wix Games",
+        "img": "ducklifetreasurehunt.jpg"
+    },
+    "launcher#gba-doom.zip-gba_bios.bin": {
+        "name": "Doom",
+        "author": "ID Software",
+        "img": "doom.jpg"
+    },
+    "cc": {
+        "name": "Coo​kie<br>Clic​ker",
+        "author": "Orteil",
+        "img": "cc.png"
+    },
+    "madalincars": {
+        "name": "Madalin Cars Multiplayer",
+        "author": "Madalin Games",
+        "img": "madcars.jpg"
+    },
+    "vex4": {
+        "name": "Vex4",
+        "author": "Amazing Adam",
+        "img": "vex-4.jpg"
+    },
+    "agariomini": {
+        "name": "Agar.io Minigame",
+        "author": "Unknown",
+        "img": "agariomini.png"
+    },
+    "1v1lol": {
+        "name": "1v1.LOL",
+        "author": "1v1.LOL Authors",
+        "img": "1v1.lol.jpg"
+    }
+}
