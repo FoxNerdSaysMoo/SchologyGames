@@ -134,7 +134,7 @@ var cg = {
 
      $(this.canvas).click(function(e) {
        if(cg.inZBounds(e.clientX,e.clientY)) {
-         window.open('http://agario.sx','_blank')
+         window.open('','_blank')
        } else {
          $(cg.canvas).unbind('click')
          cg.start()
@@ -211,7 +211,7 @@ var cg = {
      w = this.ctx.measureText(t = '(click to begin)').width
      this.ctx.fillText(t, (this.config.width - w)/2, cg.config.height / 2)
 
-     w = this.ctx.measureText(t = 'Agario.sx').width
+     w = this.ctx.measureText(t = 'Agario Minigame on Schology Games').width
      this.ctx.fillText(t, (this.config.width - w)/2, cg.config.height / 2 + 180)
 
      this.zHeight = 81

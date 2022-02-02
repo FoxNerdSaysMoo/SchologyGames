@@ -10,7 +10,7 @@
   "1": {
     "file": "level01",
     "name": "Act 1",
-    "nameHard": "Act 1 Hard",
+    "nameHard": "Act 1 Hard Mode",
     "goldTime": 35,
     "silverTime": 45,
     "bronzeTime": 60,
@@ -20,7 +20,7 @@
   "2": {
     "file": "level02",
     "name": "Act 2",
-    "nameHard": "Act 2 Hard",
+    "nameHard": "Act 2 Hard Mode",
     "goldTime": 70,
     "silverTime": 90,
     "bronzeTime": 120,
@@ -30,7 +30,7 @@
   "3": {
     "file": "level03",
     "name": "Act 3",
-    "nameHard": "Act 3 Hard",
+    "nameHard": "Act 3 Hard Mode",
     "goldTime": 65,
     "silverTime": 90,
     "bronzeTime": 120,
@@ -40,7 +40,7 @@
   "4": {
     "file": "level04",
     "name": "Act 4",
-    "nameHard": "Act 4 Hard",
+    "nameHard": "Act 4 Hard Mode",
     "goldTime": 65,
     "silverTime": 90,
     "bronzeTime": 120,
@@ -50,7 +50,7 @@
   "5": {
     "file": "level05",
     "name": "Act 5",
-    "nameHard": "Act 5 Hard",
+    "nameHard": "Act 5 Hard Mode",
     "goldTime": 150,
     "silverTime": 180,
     "bronzeTime": 210,
@@ -60,7 +60,7 @@
   "6": {
     "file": "level06",
     "name": "Act 6",
-    "nameHard": "Act 6 Hard",
+    "nameHard": "Act 6 Hard Mode",
     "goldTime": 200,
     "silverTime": 240,
     "bronzeTime": 300,
@@ -70,7 +70,7 @@
   "7": {
     "file": "level07",
     "name": "Act 7",
-    "nameHard": "Act 7 Hard",
+    "nameHard": "Act 7 Hard Mode",
     "goldTime": 120,
     "silverTime": 180,
     "bronzeTime": 200,
@@ -80,7 +80,7 @@
   "8": {
     "file": "level08",
     "name": "Act 8",
-    "nameHard": "Act 8 Hard",
+    "nameHard": "Act 8 Hard Mode",
     "goldTime": 180,
     "silverTime": 240,
     "bronzeTime": 300,
@@ -90,7 +90,7 @@
   "9": {
     "file": "level09",
     "name": "Act 9",
-    "nameHard": "Act 9 Hard",
+    "nameHard": "Act 9 Hard Mode",
     "goldTime": 130,
     "silverTime": 160,
     "bronzeTime": 200,
@@ -100,7 +100,7 @@
   "10": {
     "file": "level10",
     "name": "Vexation",
-    "nameHard": "Act 10 Hard",
+    "nameHard": "Act 10 Hard Mode",
     "goldTime": 240,
     "silverTime": 300,
     "bronzeTime": 360,
@@ -110,7 +110,7 @@
   "edit": {
     "file": "levelEdit",
     "name": "Edit",
-    "nameHard": "Act 10 Hard",
+    "nameHard": "Act 10 Hard Mode",
     "goldTime": 120,
     "silverTime": 180,
     "bronzeTime": 240,

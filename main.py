@@ -19,8 +19,8 @@ from server.app import app
 
 
 ssl = {
-    "cert": "/etc/letsencrypt/live/schology.duckdns.org/fullchain.pem",
-    "key": "/etc/letsencrypt/live/schology.duckdns.org/privkey.pem",
+    "cert": "/etc/letsencrypt/live/schology.duckdns.org-0001/fullchain.pem",
+    "key": "/etc/letsencrypt/live/schology.duckdns.org-0001/privkey.pem",
 }
 
 app.run(

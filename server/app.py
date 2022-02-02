@@ -21,6 +21,8 @@ import json
 
 app = Sanic("Schoology")
 
+app.config.NOISY_EXCEPTIONS = True
+
 app.blueprint(static.static)
 
 games = json.loads(open("server/games.json").read())
@@ -28,6 +30,8 @@ game_urls = {k.split("#")[0] for k in games.keys()}
 
 @app.route("/")
 async def index(req):
+    if "duckdns" in req.url:
+        return response.redirect("https://schology.my.to/")
     return response.html(await template.render_template(req, "index.html", games=games))
 
 @app.route("/<path:" + "|".join(game_urls) + ">")
