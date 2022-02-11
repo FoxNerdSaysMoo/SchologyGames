@@ -88,5 +88,15 @@
         "name": "Crash",
         "author": "FoxNerdSaysMoo",
         "img": "crash.jpg"
+    },
+    "vex3": {
+        "name": "Vex3",
+        "author": "Amazing Adam",
+        "img": "vex3.jpg"
+    },
+    "vex5": {
+        "name": "Vex5",
+        "author": "Amazing Adam",
+        "img": "vex5.webp"
     }
 }
